@@ -9,7 +9,7 @@ conda create -n scrape python=3.7
 To install requirements, first activate the environment: 
 ```
 conda activate scrape
-python -m pip install argparse xlsxwriter bs4 pillow 
+python -m pip install argparse xlsxwriter bs4 pillow requests  
 ```
 
 Then clone this repository:   
